@@ -2,7 +2,7 @@
 
 __Authors__: [Oscar Almqvist](https://github.com/oscaralmqvist) and [Eric Vickström](https://github.com/vickstrom)
 
-__Kadacoda is an interactive way of conducting the tutorial in the browser, found [here](https://katacoda.com/vickstrom/automation-of-model-evaluation/katacoda).__
+__Kadacoda is an interactive way of conducting the tutorial in the browser, found [here](https://www.katacoda.com/vickstrom/scenarios/automation-of-model-evaluation)__.
 
 This tutorial aims to automate the evaluation of a Machine Learning repository using webhooks on __GitHub__. The process of evaluating the effect of particular on the training set is tedious, especially if you weren't the author. This tutorial will teach how you automate the testing process for a specific pull request assigned to a certain label, and comment then results on the respective pull request. 
 
