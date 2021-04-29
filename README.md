@@ -78,7 +78,11 @@ After all of these steps are done, it saves the result to a file to a folder. In
 # result.txt
 {'loss': 1, 'accuracy': 1}
 ```
-> ⚠️  Remember that the results file produced from the model must match the file that the server is supposed to read from! ⚠️  
+> ⚠️  Remember that the results file produced from the model must match the file that the server is supposed to read from! ⚠️ 
+>  
+> Remember, if you don't have a repository where you want to implement this, __create a new repository__ and copy the content of our [small demo](./code/ml). The `demo.py` and `requirements.txt` should be at the root of the repository.
+
+> __Additionally__, add an `evaluate` label to the repository as this will be our flag for showing when to run our evaluation.
 
 ![alt text](./images/root_ml_project.png "Root ML project")    
 
