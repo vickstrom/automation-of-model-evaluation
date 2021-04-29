@@ -1,0 +1,61 @@
+{
+  "title": "Automation of Model Evaluation",
+  "description": "This tutorial aims to automate the evaluation of a Machine Learning repository using webhooks.",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Introduction",
+        "text": "step0.md"
+      },
+      {
+        "title": "The Machine Learning Project Structure",
+        "text": "step1.md"
+      },
+      {
+        "title": "A server that listens on pull request events ",
+        "text": "step2.md"
+      },
+      {
+        "title": "Storing environment variable",
+        "text": "step3.md"
+      },
+      {
+        "title": "Register a GitHub App",
+        "text": "step4.md"
+      },
+      {
+        "title": "Evaluating our Pull Requests",
+        "text": "step5.md"
+      },
+      {
+        "title": "Commenting a Pull Request",
+        "text": "step6.md"
+      },
+      {
+        "title": "Connecting the dots",
+        "text": "step7.md"
+      },
+      {
+        "title": "Conclusion",
+        "text": "step8.md",
+        "code": "scripts/step8_foreground.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "scripts/intro_background.sh",
+      "code": "scripts/intro_foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
