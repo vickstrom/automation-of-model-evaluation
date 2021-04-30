@@ -29,7 +29,7 @@ def evaluate_pull_request(commit_sha, html_url):
 
 > Notice how we depend on the project layout via the paths here (`{project_ds}/requirements.txt` and `{project_dst}/demo.py`). If you use your own project, make sure you call the correct files!
 
-> If you want to supress the output from `run()` you can add redirect the `stdout` and/or `stderr` to `subprocess.DEVNULL`. See [server.py](https://github.com/vickstrom/automation-of-model-evaluation/tree/main/code/server/server.py) in our repo for how we did it
+> If you want to supress the output from `run()` you can add redirect the `stdout` and/or `stderr` to `subprocess.DEVNULL`. See [server.py](https://github.com/vickstrom/automation-of-model-evaluation/blob/main/code/server/server.py#L30-L33) in our repo for how we did it
 
 What data from the __pull request__ do we need? Well, we need the `html_url` of the repository in order to __clone it__ and then `commit_sha` in order to __checkout__ the latest changes. Note that we need the `html_url`  and `commit_sha` of both the _head_ and _base_ as we want to compare the changes. Additionally, we need the `comments_url` to have our application comment the results on the __pull request__. Let's create two utility functions for this inside `server.py`{{open}}:
 
