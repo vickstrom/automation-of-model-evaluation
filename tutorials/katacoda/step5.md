@@ -47,7 +47,7 @@ def get_urls(data):
 # ...
 </pre>
 
-We also need to specify when this could be run. For instance, if we just made a pull request that updated documentation or similar, we don't need to run all of this testing as the model hasn't been changed. To solve this, we will create a label in our repository which is treated as a flag for letting our server know when to evaluate it. We will call this label evaluate. This also means that we need to create some form of validation function that asserts if it's a valid response intended for testing and comparing the model. In the case of GitHub webhooks, we want to listen of the labeled action for a pull_request. We also need to see if it contains our label.
+We also need to specify when this could be run. For instance, if we just made a pull request that updated documentation or similar, we don't need to run all of this testing as the model hasn't been changed. To solve this, we will create a label in our repository which is treated as a flag for letting our server know when to evaluate it. We will call this label `evaluate`. This also means that we need to create some form of validation function that asserts if it's a valid response intended for training, testing and comparing the model. In the case of GitHub webhooks, we want to listen of the labeled action for a pull_request. We also need to see if it contains our label.
 
 <pre class="file">
 # ...
