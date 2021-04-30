@@ -2,7 +2,7 @@
   "title": "Automation of Model Evaluation",
   "description": "This tutorial aims to automate the evaluation of a Machine Learning repository using webhooks.",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
