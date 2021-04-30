@@ -10,7 +10,7 @@ We need to specify a name for our app. However, they require you to specify a we
 
 `http://[[HOST_SUBDOMAIN]]-1337-[[KATACODA_HOST]].environments.katacoda.com/`.
 
-We are using the default settings for all the options (_Identifying and authorizing users_, _Post installations_, etc.), expect for the following:
+These are the settings:
 
 ### Identifying and authorizing users
 
