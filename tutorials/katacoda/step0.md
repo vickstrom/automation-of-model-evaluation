@@ -13,7 +13,7 @@ The generel steps to complete our goal is described below. In further sections, 
 
 <!--- __PROOF OF CONCEPT__ AND SHOULD NOT BE USED IN __PRODUCTION__. --->
 
-> ⚠️ The application created assumes that the code in the pull request is safe, if an unauthorized person decide to put in faulty code, it would run on your server. Proper security measures needs to be added. ⚠️️️️️
+<!-- > ⚠️ The application created assumes that the code in the pull request is safe, if an unauthorized person decide to put in faulty code, it would run on your server. Proper security measures needs to be added. ⚠️️️️️ -->
 
 ### Prerequisites
 As this tutorial makes use of GitHub itself, there are some prerequisites to do every part of this tutorial: 
