@@ -438,6 +438,8 @@ Start your server `python3 server.py`.
 
 Now, if you branch out from your own repository and make some change (either some parameter in the model or just some text change), you can then open a pull request and add an `evaluate` label. You should see a bunch of output on the server for every command that it's running, but finally you should see a comment on your pull request! This tutorial is proof-of-concept of how one could build a server to evaluate pull requests containing ML models. This can hopefully be altered to _your_ needs and inspire to automate more parts of _your_ development process!   
 
+> If you get a `404` on the server, it's most likely due to the wrong URLs specified inside the app settings. To solve this, click __Edit__ on your [app](https://github.com/settings/apps/). In the __Webhook URL__ must have this url: `http://[[HOST_SUBDOMAIN]]-1337-[[KATACODA_HOST]].environments.katacoda.com/mlops-server`.
+
 ![alt text](./images/result.gif "End result gif")  
 
 # Appendix A - Example payload
