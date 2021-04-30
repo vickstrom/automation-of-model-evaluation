@@ -85,6 +85,7 @@ After all of these steps are done, it saves the result to a file. In our case, i
 
 > __Additionally__, add an `evaluate` label to the repository as this will be our flag for showing when to run our evaluation.
 
+An example of how our project looks like:   
 ![alt text](./images/root_ml_project.png "Root ML project")    
 
 ### Required Dependencies
