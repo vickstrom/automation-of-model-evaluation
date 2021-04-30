@@ -2,7 +2,7 @@ _Yippie!_ 🎉
 
 Start your server `python3 server.py`{{execute}}.
 
-If you now open a pull request and add an `evaluate` label you should see that this application works! This tutorial contains a proof-of-concept of how one could build a server to evaluate pull requests containing ML models. This can hopefully be altered to _your_ needs and inspire to automate more parts of _your_ development process!   
+Now, if you branch out from your own repository and make some change (either some parameter in the model or just some text change), you can then open a pull request and add an `evaluate` label. You should see a bunch of output on the server for every command that it's running, but finally you should see a comment on your pull request! This tutorial is proof-of-concept of how one could build a server to evaluate pull requests containing ML models. This can hopefully be altered to _your_ needs and inspire to automate more parts of _your_ development process!   
 
 ![alt text](./assets/result.gif "End result gif")    
 
